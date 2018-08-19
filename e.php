@@ -38,7 +38,7 @@ $receivers = array_map( function ( $receiver ) {
 $stack = \GuzzleHttp\HandlerStack::create();
 $oauth_middleware = new \GuzzleHttp\Subscriber\Oauth\Oauth1( [
 	'consumer_key'    => getenv( 'consumer_key' ),
-	'consumer_secret' => getenv ('consumer_secret' ),
+	'consumer_secret' => getenv('consumer_secret' ),
 	'token'           => '',
 	'token_secret'    => ''
 ] );
