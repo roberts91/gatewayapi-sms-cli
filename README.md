@@ -1,5 +1,6 @@
 # gatewayapi-sms-cli
 ### Installation:
+- Run `composer install` in project root folder
 - Copy ".env-example" to new file called ".env"
 - Insert API key and secret in file ".env"
 - Run script "e.php" via CLI, see usage block for more instructions
